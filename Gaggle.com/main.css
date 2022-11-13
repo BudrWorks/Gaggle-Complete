@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  a:hover {
+    color: green;
+  }
+
+  header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    padding: 10px;
+    text-shadow: 2px 2px 5px black, -2px -2px 5px black;
+  }
+  
+  header a {
+    margin: 5px;
+  }
+  
+  #landingPageMainBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('partyBackground.jpg');
+    background-size: cover
+  }
+  
+  #landingPageMainBodyCenterSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+    height: 20vh;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 2px 2px 5px black, -2px -2px 5px black;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  #createAccountButton {
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 20px;
+  }
+  
