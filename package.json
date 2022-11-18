@@ -1,0 +1,24 @@
+{
+  "name": "gaggle-web",
+  "version": "1.0.0",
+  "description": "gaggle, a new way to meet people",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BudrWorks/Gaggle-Complete.git"
+  },
+  "author": "Uddr Butter <budrworks@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BudrWorks/Gaggle-Complete/issues"
+  },
+  "homepage": "https://github.com/BudrWorks/Gaggle-Complete#readme",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0"
+  }
+}
